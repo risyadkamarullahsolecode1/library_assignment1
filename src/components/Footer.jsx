@@ -2,13 +2,15 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-light text-center p-3">
+    <footer className="bg-primary text-center text-white p-3 fixed-bottom">
+      <div>
       <p>&copy; Library Management System</p>
-      <nav>
-        <a href="/" className="mx-auto">Home</a>
-        <a href="/about" className="mx-auto">About</a>
-        <a href="/contact" className="mx-auto">Contact</a>
+      <nav className="container px-4 text-white">
+        <a href="/" className="mx-auto p-2 text-white">Home</a>
+        <a href="/about" className="mx-auto p-2 text-white">About</a>
+        <a href="/contact" className="mx-auto text-white">Contact</a>
       </nav>
+      </div>
     </footer>
   );
 };
